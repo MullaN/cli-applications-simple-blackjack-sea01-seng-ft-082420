@@ -34,7 +34,7 @@ end
 
 def hit?
   # code hit? here
-  deal_card + deal_card
+  hand = deal_card + deal_card
 end
 
 def invalid_command
