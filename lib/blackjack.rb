@@ -65,5 +65,5 @@ def runner
   while hand < 21
     hand = hit?(hand)
   end
-  end_game
+  end_game(hand)
 end
