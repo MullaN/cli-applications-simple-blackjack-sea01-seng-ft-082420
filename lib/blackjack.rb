@@ -30,12 +30,11 @@ end
 
 def initial_round
   # code #initial_round here
+  deal_card + deal_card
 end
 
 def hit?
   # code hit? here
-  hand = deal_card + deal_card
-  hand
 end
 
 def invalid_command
