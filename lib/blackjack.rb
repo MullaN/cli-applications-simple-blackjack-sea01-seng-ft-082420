@@ -62,8 +62,8 @@ def runner
   # code runner here
   welcome
   hand = initial_round
-  do
-    hand = hit?(hand)
   while hand < 21
+    hand = hit?(hand)
+  end
   end_game
 end
