@@ -35,7 +35,7 @@ def initial_round
   hand
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
   prompt_user
   choice = get_user_input
