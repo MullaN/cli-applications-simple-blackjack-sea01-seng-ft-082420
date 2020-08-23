@@ -30,7 +30,8 @@ end
 
 def initial_round
   # code #initial_round here
-  deal_card + deal_card
+  hand = deal_card + deal_card
+  puts "Your cards add up to #{hand}"
 end
 
 def hit?
